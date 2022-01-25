@@ -11,6 +11,12 @@
       <app-option-two [posts]="posts"></app-option-two>
     </ng-template>
   </li>
+  <li [ngbNavItem]="3">
+    <a ngbNavLink>Opción 3</a>
+    <ng-template ngbNavContent>
+      <app-option-three [posts]="posts"></app-option-three>
+    </ng-template>
+  </li>
 </ul>
 
 <div [ngbNavOutlet]="nav" class="mt-2"></div>
