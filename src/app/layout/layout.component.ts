@@ -9,6 +9,7 @@ import { Post } from '../interfaces/post';
 })
 export class LayoutComponent implements OnInit {
 
+  active = 1;
   posts: Post[] = [];
 
   constructor(

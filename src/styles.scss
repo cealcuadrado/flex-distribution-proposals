@@ -1,2 +1,9 @@
 /* You can add global styles to this file, and also import other style files */
 @import '~pretty-checkbox/src/pretty-checkbox';
+
+/* Importing Bootstrap SCSS file. */
+@import '~bootstrap/scss/bootstrap';
+
+.custom-card {
+  border-left: 10px solid black;
+}
