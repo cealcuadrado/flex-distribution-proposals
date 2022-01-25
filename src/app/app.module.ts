@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { HttpClientModule } from '@angular/common/http';
 import { NgxPrettyCheckboxModule } from 'ngx-pretty-checkbox';
+import { NgxPaginationModule } from 'ngx-pagination';
 
 import { AppComponent } from './app.component';
 import { LayoutComponent } from './layout/layout.component';
@@ -22,7 +23,8 @@ import { OptionThreeComponent } from './layout/option-three/option-three.compone
     BrowserModule,
     HttpClientModule,
     NgxPrettyCheckboxModule,
-    NgbModule
+    NgbModule,
+    NgxPaginationModule
   ],
   providers: [],
   bootstrap: [AppComponent]

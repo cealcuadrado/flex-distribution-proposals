@@ -10,6 +10,7 @@ import { Post } from '../interfaces/post';
 export class LayoutComponent implements OnInit {
 
   active = 1;
+  itemsPerPage = 12;
   posts: Post[] = [];
 
   constructor(
